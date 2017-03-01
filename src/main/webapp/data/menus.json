@@ -1,0 +1,311 @@
+[
+  {
+    "id": 100001,
+    "text": "快捷菜单",
+    "iconCls": "icon-application-cascade",
+    "children": [
+      {
+        "id": 10000101,
+        "text": "菜单导航",
+        "iconCls": "icon-chart-organisation",
+        "attributes": {
+          "url": "http://www.baidu.com"
+        }
+      },
+      {
+        "id": 10000102,
+        "text": "用户管理",
+        "iconCls": "icon-users",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 10000101,
+        "text": "角色管理",
+        "iconCls": "icon-user-group",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 10000101,
+        "text": "数据字典",
+        "iconCls": "icon-book",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 10000101,
+        "text": "系统参数",
+        "iconCls": "icon-cog",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 10000101,
+        "text": "操作日志",
+        "iconCls": "icon-application-osx-error",
+        "url": "temp/layout-2.html"
+      }
+    ]
+  },
+  {
+    "id": 200001,
+    "text": "内容管理",
+    "iconCls": "icon-application-form-edit",
+    "state": "closed",
+    "children": [
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-chart-organisation",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000102,
+        "text": "导航标题",
+        "iconCls": "icon-users",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-user-group",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-book",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-cog",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-application-osx-error",
+        "url": "temp/layout-2.html"
+      }
+    ]
+  },
+  {
+    "id": 200001,
+    "text": "商品管理",
+    "iconCls": "icon-creditcards",
+    "state": "closed",
+    "children": [
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-chart-organisation",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000102,
+        "text": "导航标题",
+        "iconCls": "icon-users",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-user-group",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-book",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-cog",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-application-osx-error",
+        "url": "temp/layout-2.html"
+      }
+    ]
+  },
+  {
+    "id": 200001,
+    "text": "订单管理",
+    "iconCls": "icon-cart",
+    "state": "closed",
+    "children": [
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-chart-organisation",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000102,
+        "text": "导航标题",
+        "iconCls": "icon-users",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-user-group",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-book",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-cog",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-application-osx-error",
+        "url": "temp/layout-2.html"
+      }
+    ]
+  },
+  {
+    "id": 200001,
+    "text": "广告管理",
+    "iconCls": "icon-bricks",
+    "state": "closed",
+    "children": [
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-chart-organisation",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000102,
+        "text": "导航标题",
+        "iconCls": "icon-users",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-user-group",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-book",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-cog",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-application-osx-error",
+        "url": "temp/layout-2.html"
+      }
+    ]
+  },
+  {
+    "id": 200001,
+    "text": "报表中心",
+    "iconCls": "icon-chart-curve",
+    "state": "closed",
+    "children": [
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-chart-organisation",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000102,
+        "text": "导航标题",
+        "iconCls": "icon-users",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-user-group",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-book",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-cog",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-application-osx-error",
+        "url": "temp/layout-2.html"
+      }
+    ]
+  },
+  {
+    "id": 200001,
+    "text": "系统设置",
+    "iconCls": "icon-wrench",
+    "state": "closed",
+    "children": [
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-chart-organisation",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000102,
+        "text": "导航标题",
+        "iconCls": "icon-users",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-user-group",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-book",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-cog",
+        "url": "temp/layout-2.html"
+      },
+      {
+        "id": 20000101,
+        "text": "导航标题",
+        "iconCls": "icon-application-osx-error",
+        "url": "temp/layout-2.html"
+      }
+    ]
+  }
+]

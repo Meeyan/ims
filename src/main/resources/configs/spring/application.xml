@@ -24,8 +24,8 @@
         </property>
     </bean>
 
-    <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
-        <!-- 数据库基本信息配置 -->
+    <!--<bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        &lt;!&ndash; 数据库基本信息配置 &ndash;&gt;
         <property name="url" value="${url}"/>
         <property name="username" value="${username}"/>
         <property name="password" value="${password}"/>
@@ -34,28 +34,28 @@
         <property name="dbType" value="sqlserver"/>
 
         <property name="filters" value="${filters}"/>
-        <!-- 最大并发连接数 -->
+        &lt;!&ndash; 最大并发连接数 &ndash;&gt;
         <property name="maxActive" value="${maxActive}"/>
-        <!-- 初始化连接数量 -->
+        &lt;!&ndash; 初始化连接数量 &ndash;&gt;
         <property name="initialSize" value="${initialSize}"/>
-        <!-- 配置获取连接等待超时的时间 -->
+        &lt;!&ndash; 配置获取连接等待超时的时间 &ndash;&gt;
         <property name="maxWait" value="${maxWait}"/>
-        <!-- 最小空闲连接数 -->
+        &lt;!&ndash; 最小空闲连接数 &ndash;&gt;
         <property name="minIdle" value="${minIdle}"/>
-        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        &lt;!&ndash; 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 &ndash;&gt;
         <property name="timeBetweenEvictionRunsMillis" value="${timeBetweenEvictionRunsMillis}"/>
-        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        &lt;!&ndash; 配置一个连接在池中最小生存的时间，单位是毫秒 &ndash;&gt;
         <property name="minEvictableIdleTimeMillis" value="${minEvictableIdleTimeMillis}"/>
         <property name="validationQuery" value="${validationQuery}"/>
         <property name="testWhileIdle" value="${testWhileIdle}"/>
         <property name="testOnBorrow" value="${testOnBorrow}"/>
         <property name="testOnReturn" value="${testOnReturn}"/>
         <property name="maxOpenPreparedStatements" value="${maxOpenPreparedStatements}"/>
-        <!-- 打开removeAbandoned功能 -->
+        &lt;!&ndash; 打开removeAbandoned功能 &ndash;&gt;
         <property name="removeAbandoned" value="${removeAbandoned}"/>
-        <!-- 1800秒，也就是30分钟 -->
+        &lt;!&ndash; 1800秒，也就是30分钟 &ndash;&gt;
         <property name="removeAbandonedTimeout" value="${removeAbandonedTimeout}"/>
-        <!-- 关闭abanded连接时输出错误日志 -->
+        &lt;!&ndash; 关闭abanded连接时输出错误日志 &ndash;&gt;
         <property name="logAbandoned" value="${logAbandoned}"/>
     </bean>
 
@@ -63,9 +63,9 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <!-- 使用 spring jdbc 模板-->
+    &lt;!&ndash; 使用 spring jdbc 模板&ndash;&gt;
     <bean id="jdbcTemplate " class="org.springframework.jdbc.core.JdbcTemplate">
         <constructor-arg ref="dataSource"/>
     </bean>
-
+-->
 </beans>

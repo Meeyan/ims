@@ -19,6 +19,7 @@ import java.util.Map;
  */
 public class BaseDao {
 
+    /* ***** 共享常量 ***** */
     public static final String INSERT_SQL = "INSERT_SQL";
     public static final String VALUE_ARR = "VALUE_ARR";
     public static final String TYPE_ARR = "TYPE_ARR";
